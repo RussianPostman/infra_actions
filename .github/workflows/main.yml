@@ -66,7 +66,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.PASSPHRASE }}
+        passphrase: ${{ secrets.PASSPHRASE }} # ff
         script: |
           # Выполняет pull образа с DockerHub
           sudo docker pull russianpostman/sprint16
